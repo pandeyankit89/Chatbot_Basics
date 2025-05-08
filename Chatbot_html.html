@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Chat Popup</title>
+		<link rel="stylesheet" href="Chatbot_CSS.css" />
+	</head>
+	<body>
+
+		<div id="chat-container">
+			<div id="chat-button" onclick="toggleChat()">💬</div>
+			<div id="chat-box">
+				<div id="chat-header">Chat Assistant</div>
+				<div id="chat-display-area">
+					<div id="chat-messages">
+						<div class="message bot">Hi!</div>
+					</div>
+				</div>
+				<div id="chat-input-area">
+					<input type="text" id="chat-input" placeholder="Type a message..." />
+					<button id="send-btn" onclick="sendMessage()">Send</button>
+				</div>
+			</div>
+		</div>
+		<script src="Chatbot_JS.js"></script>
+	</body>
+
+</html>
+
